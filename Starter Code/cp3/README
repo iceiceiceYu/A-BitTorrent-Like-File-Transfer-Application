@@ -1,0 +1,24 @@
+Welcome to Checkpoint3 !
+
+This checkpoint is very similar to checkpoint 2, except that packets 
+(both data and ack) will be dropped and you will still be expected 
+to successfully transfer files. 
+
+Only the debugging levels have changed from checkpoint 2, so for other details,
+please see the checkpoint2 README. 
+
+CP3 Debugging Levels:  
+The ref_peer supports several debugging levels which you may find
+useful.  We cover a few here:
+- use '-d 2' if you want to see only control messages. (default)
+- use '-d 3' if you just want to see control messages & losses 
+- use '-d 7' if you also want to see basic messages plus SEQ number
+and ACK number print-outs for each data packet
+- use '-d 15' to also see the contents of data structures used to 
+handled unreliable data transfer.
+- use '-d 63' if you want to see all the debug info fit to print 
+(piping it to a file might not be a bad idea).  
+
+Note:  For each of the tests, we have our binary exit directly
+after completing the task.  This is not an error.  
+

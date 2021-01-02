@@ -1,0 +1,69 @@
+Welcome to Checkpoint1 !
+
+IMPORTANT: To facilitate grading, make sure you can pass the script by
+running the following steps starting in your trunk directory:
+% make
+% cp peer cp1/
+% cd cp1/
+% ruby checkpoint1.rb
+
+You will lose points if you fail the automated script and I have to 
+manually run the test.
+
+Beware, this checkpoint is an entire directory, not just a script.  
+To run this checkpoint test, copy your "peer" binary into the
+directory and then execute ./checkpoint1.rb .  We also provide
+a binary file, called "ref_peer" that you can copy to "peer" to
+see an example of a binary that passes the scripts (this is 
+not a full-fledged peer, it simply implements the requirements of
+this checkpoint).  Also, you may need to change the first line if your
+ruby interpreter is in another location.   
+
+Note: before running the checkpoint, you must modify 
+'checkpoint1.rb' to change the value of the 'spiffy_port'
+variable near the bottom of the script, and comment out some lines
+telling you to read this document.  If you are getting
+errors while running the script with the reference binary,
+make sure your spiffy and peer ports are not already in use.
+
+Testing the functionality required for Checkpoint 1 is difficult 
+because your program creates no text or file output 
+that can easily be compared against expected values. 
+As a result, we wrote test functions in C that will test that 
+your "peer" binary sends the right messages in response to  
+command-line or WHOHAS inputs (however, we clearly cannot hand
+out the source code, as it implements much of what you are 
+asked to do for this checkpoint!).  
+
+There are three simple tests, which the ruby file executes 
+sequentially.  
+1) Test that your peer correctly generates a WHOHAS packet and 
+sends it to other peers after receiving a GET request on 
+standard in.  
+2) Test that your peer responds with a correct IHAVE packet when
+it receives a WHOHAS packet for chunks the peer has.  
+3) Test that your peer does NOT send an IHAVE packet when 
+it does not have any of the chunks listed in a WHOHAS packet.  
+
+You will see either "##### Test X Passed! #####" or 
+"###### Test X Failed ########, along with output that will
+provide information about why any tests failed.  
+Remember that these tests are CUMULATIVE.  That means, you can't
+get points for passing test X unless you passed all tests numbered
+less than X.  This is because the testing logic must make assumptions
+about what you have already implemented. 
+
+
+Ruby Details:
+
+The ruby script is just a driver for the three tests, each of 
+which are implemented in the "checkpoint1" binary.  The code
+provides examples of a few things that might be helpful when
+writing your own test cases:  1) how to spawn multiple processes
+in Ruby, and how to kill them when your test is done 2) how to 
+write data to standard input of a child process (see test 1);
+and 3) how to wait on a process and check its return code when
+it is finished.  
+
+Also, you may want to edit the ruby script to change the debug
+level your "peer" binary is called with.  

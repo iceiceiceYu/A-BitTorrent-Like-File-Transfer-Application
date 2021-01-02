@@ -1,0 +1,43 @@
+Welcome to Checkpoint2 !
+
+Beware, as with checkpoint1, this checkpoint is an entire directory, 
+not just a script.  
+To run this checkpoint, copy your "peer" binary into the
+directory and then execute 'ruby checkpoint2.rb'.  We also provide
+a binary file, called "ref_peer" that you can copy to "peer" to
+see an example of a binary that passes the scripts (this is 
+not a full-fledged peer, it simply implements the requirements of
+this checkpoint).  
+
+Again: before running the checkpoint, you should modify 
+'checkpoint2.rb' to change the value of the 'spiffy_port'
+variable near the bottom of the script (this is really only
+necessary if you are running on a shared machine).  If you are getting
+errors while running the script with the reference binary,
+make sure your spiffy and peer ports are not already in use.
+
+There are two tests in checkpoint2, and both are simple
+functionality that you probably have already tested yourself
+with 'diff'. 
+
+1) The first test has your peer download a file from our ref_peer.
+The command given to your peer is 'GET test1.chunks test1.tar'.
+2) The second test has our ref_peer download a file from your
+peer.  The ref_peer is given the command: 'GET test2.chunks test2.tar'
+
+You will see either "##### Test X Passed! #####" or 
+"###### Test X Failed ########, along with output that will
+provide information about why any tests failed.  
+
+Debugging Levels:  
+The ref peer supports several debugging levels which you may find
+useful.  We cover a few here:
+- use '-d 7' if you just want to see control messages (default)
+- use '-d 39' if you want to see basic messages plus SEQ number
+and ACK number print-outs for each data packet
+- use '-d 63' if you want to see all the debug info fit to print 
+(piping it to a file might not be a bad idea).  
+
+Note:  For each of the tests, we have our binary exit directly
+after completing the task.  This is not an error.  
+

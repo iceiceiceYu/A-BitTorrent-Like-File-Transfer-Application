@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cdc076fa-6e14-4d7f-adf3-b5dd6323f6b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/starter_code/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrenttest/concurrenttest.rb" beforeDir="false" afterPath="$PROJECT_DIR$/concurrenttest/concurrenttest.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrenttest/hupsim_adv.pl" beforeDir="false" afterPath="$PROJECT_DIR$/concurrenttest/hupsim_adv.pl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cp1/checkpoint1.rb" beforeDir="false" afterPath="$PROJECT_DIR$/cp1/checkpoint1.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cp1/hupsim.pl" beforeDir="false" afterPath="$PROJECT_DIR$/cp1/hupsim.pl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cp2/README" beforeDir="false" afterPath="$PROJECT_DIR$/cp2/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cp2/checkpoint2.rb" beforeDir="false" afterPath="$PROJECT_DIR$/cp2/checkpoint2.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cp2/hupsim.pl" beforeDir="false" afterPath="$PROJECT_DIR$/cp2/hupsim.pl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cp3/checkpoint3.rb" beforeDir="false" afterPath="$PROJECT_DIR$/cp3/checkpoint3.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cp3/hupsim.pl" beforeDir="false" afterPath="$PROJECT_DIR$/cp3/hupsim.pl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cp3/hupsim_adv.pl" beforeDir="false" afterPath="$PROJECT_DIR$/cp3/hupsim_adv.pl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/.idea/starter_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/.idea/starter_code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/bt_parse.c" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/bt_parse.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/bt_parse.h" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/bt_parse.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/chunk.c" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/chunk.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/chunk.h" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/chunk.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/client.c" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/client.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/debug-text.h" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/debug-text.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/debug.c" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/debug.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/debug.h" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/debug.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/debugparse.pl" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/debugparse.pl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/example/A.gif" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/example/A.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/example/B.gif" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/example/B.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/hupsim.pl" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/hupsim.pl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/input_buffer.c" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/input_buffer.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/input_buffer.h" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/input_buffer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/make_chunks.c" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/make_chunks.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/nodes.map" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/nodes.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/peer.c" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/peer.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/server.c" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/server.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/sha.c" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/sha.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/sha.h" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/sha.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/spiffy.c" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/spiffy.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/spiffy.h" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/spiffy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/test_input_buffer.c" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/test_input_buffer.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter_code/topo.map" beforeDir="false" afterPath="$PROJECT_DIR$/starter_code/topo.map" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="clangTidyViaClangd" value="false" />
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1lgoYbj3gIYbvKJpQSS6kph9jwC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdc076fa-6e14-4d7f-adf3-b5dd6323f6b6" name="Default Changelist" comment="" />
+      <created>1608028143719</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608028143719</updated>
+      <workItem from="1608028144925" duration="153000" />
+      <workItem from="1608028862087" duration="2181000" />
+      <workItem from="1608036405978" duration="183000" />
+      <workItem from="1608047651123" duration="477000" />
+      <workItem from="1608048384468" duration="96000" />
+      <workItem from="1608287227377" duration="102000" />
+      <workItem from="1608287418801" duration="1000" />
+      <workItem from="1608287665522" duration="295000" />
+      <workItem from="1608394948000" duration="20999000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
