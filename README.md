@@ -1,6 +1,8 @@
 # A-BitTorrent-Like-File-Transfer-Application
 Computer Network Course Project in Fudan University
 
+复旦大学《计算机网络》课程 Project
+
 ## Starter Code
 
 > source code
